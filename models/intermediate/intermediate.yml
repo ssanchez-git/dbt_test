@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: intermediate
+    description: "tiene los registros sin contar los estado lost"
+    columns:
+      - name: deal_id
+        description: "ID de cada deal"
+        tests:
+          - unique
+          - not_null
