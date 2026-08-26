@@ -39,4 +39,7 @@ models:
   snowflake_test:
     # Applies to all files under models/example/
     staging:
+      +materialized: view
+    
+    intermediate:
       +materialized: table
