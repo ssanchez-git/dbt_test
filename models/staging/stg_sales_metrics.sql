@@ -6,5 +6,6 @@ select
     sales_stage,
     win_status,
     sales_rep,
-    product_line
+    product_line,
+    loaded_at
 from {{ source('sales_intelligence', 'SALES_METRICS') }}
