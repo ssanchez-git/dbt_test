@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: sales_intelligence
+    database: SALES_INTELLIGENCE
+    schema: DATA
+    tables:
+      - name: SALES_METRICS
